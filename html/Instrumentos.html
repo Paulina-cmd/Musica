@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrumentos Musicales - Música</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <a href="../index.html">🎵 <span>Música</span></a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">INICIO</a></li>
+                <li><a href="Artistas.html" class="nav-link">ARTISTAS</a></li>
+                <li><a href="Generos.html" class="nav-link">GÉNEROS</a></li>
+            </ul>
+        </nav>
+
+        <div class="pagina-header">
+            <h1>🎸 INSTRUMENTOS <span>MUSICALES</span></h1>
+            <p>Descubre los sonidos que hacen posible la música</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="seccion instrumentos">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">CLASIFICACIÓN POR <span>FAMILIAS</span></h2>
+                
+                <!-- FILTROS (opcional, se ve muy profesional) -->
+                <div class="instrumentos-filtros">
+                    <button class="filtro-btn activo" data-filtro="todos">Todos</button>
+                    <button class="filtro-btn" data-filtro="cuerda">Cuerda</button>
+                    <button class="filtro-btn" data-filtro="viento">Viento</button>
+                    <button class="filtro-btn" data-filtro="percusion">Percusión</button>
+                    <button class="filtro-btn" data-filtro="teclado">Teclado</button>
+                </div>
+
+                <div class="instrumentos-grid">
+                    <!-- Instrumento 1 - Guitarra (Cuerda) -->
+                    <div class="instrumento-card" data-tipo="cuerda" style="--instrumento-color: #E67E22">
+                        <div class="instrumento-icono">🎸</div>
+                        <h3>Guitarra</h3>
+                        <p class="instrumento-tipo">Cuerda</p>
+                        <p class="instrumento-descripcion">El instrumento más versátil y popular. Desde el rock hasta la música clásica, la guitarra está presente en casi todos los géneros.</p>
+                        <div class="instrumento-datos">
+                            <span>🎵 6 cuerdas</span>
+                            <span>🎸 Acústica/Eléctrica</span>
+                        </div>
+                    </div>
+
+                    <!-- Instrumento 2 - Piano (Teclado) -->
+                    <div class="instrumento-card" data-tipo="teclado" style="--instrumento-color: #3498DB">
+                        <div class="instrumento-icono">🎹</div>
+                        <h3>Piano</h3>
+                        <p class="instrumento-tipo">Teclado</p>
+                        <p class="instrumento-descripcion">El rey de los instrumentos. 88 teclas que pueden producir desde los sonidos más suaves hasta los más potentes.</p>
+                        <div class="instrumento-datos">
+                            <span>🎹 88 teclas</span>
+                            <span>🎵 Piano de cola</span>
+                        </div>
+                    </div>
+
+                    <!-- Instrumento 3 - Batería (Percusión) -->
+                    <div class="instrumento-card" data-tipo="percusion" style="--instrumento-color: #E74C3C">
+                        <div class="instrumento-icono">🥁</div>
+                        <h3>Batería</h3>
+                        <p class="instrumento-tipo">Percusión</p>
+                        <p class="instrumento-descripcion">El corazón del ritmo. Conjunto de tambores y platillos que mantienen el tempo de la música.</p>
+                        <div class="instrumento-datos">
+                            <span>🥁 5 piezas</span>
+                            <span>🎸 Bombo, caja, platillos</span>
+                        </div>
+                    </div>
+
+                    <!-- Instrumento 4 - Violín (Cuerda) -->
+                    <div class="instrumento-card" data-tipo="cuerda" style="--instrumento-color: #9B59B6">
+                        <div class="instrumento-icono">🎻</div>
+                        <h3>Violín</h3>
+                        <p class="instrumento-tipo">Cuerda</p>
+                        <p class="instrumento-descripcion">El más agudo y expresivo de la familia de cuerdas. Capaz de imitar la voz humana.</p>
+                        <div class="instrumento-datos">
+                            <span>🎻 4 cuerdas</span>
+                            <span>🎵 Arco de crin</span>
+                        </div>
+                    </div>
+
+                    <!-- Instrumento 5 - Flauta (Viento) -->
+                    <div class="instrumento-card" data-tipo="viento" style="--instrumento-color: #1ABC9C">
+                        <div class="instrumento-icono">🎵</div>
+                        <h3>Flauta</h3>
+                        <p class="instrumento-tipo">Viento</p>
+                        <p class="instrumento-descripcion">Sonido dulce y melodioso. Uno de los instrumentos más antiguos de la humanidad.</p>
+                        <div class="instrumento-datos">
+                            <span>🎵 Traversa</span>
+                            <span>💨 Bisel</span>
+                        </div>
+                    </div>
+
+                    <!-- Instrumento 6 - Bajo (Cuerda) -->
+                    <div class="instrumento-card" data-tipo="cuerda" style="--instrumento-color: #2C3E50">
+                        <div class="instrumento-icono">🎸</div>
+                        <h3>Bajo</h3>
+                        <p class="instrumento-tipo">Cuerda</p>
+                        <p class="instrumento-descripcion">El fundamento del ritmo y la armonía. Conecta la percusión con la melodía.</p>
+                        <div class="instrumento-datos">
+                            <span>🎸 4 cuerdas</span>
+                            <span>🎵 Grave profundo</span>
+                        </div>
+                    </div>
+
+                    <!-- Instrumento 7 - Saxofón (Viento) -->
+                    <div class="instrumento-card" data-tipo="viento" style="--instrumento-color: #F39C12">
+                        <div class="instrumento-icono">🎷</div>
+                        <h3>Saxofón</h3>
+                        <p class="instrumento-tipo">Viento</p>
+                        <p class="instrumento-descripcion">Alma del jazz y el blues. Su sonido cálido y versátil lo hace único.</p>
+                        <div class="instrumento-datos">
+                            <span>🎷 Lengüeta</span>
+                            <span>🎵 Saxo alto, tenor</span>
+                        </div>
+                    </div>
+
+                    <!-- Instrumento 8 - Trompeta (Viento) -->
+                    <div class="instrumento-card" data-tipo="viento" style="--instrumento-color: #E84342">
+                        <div class="instrumento-icono">🎺</div>
+                        <h3>Trompeta</h3>
+                        <p class="instrumento-tipo">Viento</p>
+                        <p class="instrumento-descripcion">Potente y brillante. Protagonista en bandas y orquestas.</p>
+                        <div class="instrumento-datos">
+                            <span>🎺 3 pistones</span>
+                            <span>🎵 Metal</span>
+                        </div>
+                    </div>
+
+                    <!-- Instrumento 9 - Arpa (Cuerda) -->
+                    <div class="instrumento-card" data-tipo="cuerda" style="--instrumento-color: #D35400">
+                        <div class="instrumento-icono">🎵</div>
+                        <h3>Arpa</h3>
+                        <p class="instrumento-tipo">Cuerda</p>
+                        <p class="instrumento-descripcion">Sonido celestial y elegante. Uno de los instrumentos más antiguos y bellos.</p>
+                        <div class="instrumento-datos">
+                            <span>🎵 47 cuerdas</span>
+                            <span>✨ Pedales</span>
+                        </div>
+                    </div>
+
+                    <!-- Instrumento 10 - Acordeón (Viento) -->
+                    <div class="instrumento-card" data-tipo="viento" style="--instrumento-color: #8E44AD">
+                        <div class="instrumento-icono">🎵</div>
+                        <h3>Acordeón</h3>
+                        <p class="instrumento-tipo">Viento</p>
+                        <p class="instrumento-descripcion">Alma de la música folk y el tango. Sonido alegre y nostálgico.</p>
+                        <div class="instrumento-datos">
+                            <span>🎵 Fuelle</span>
+                            <span>🎹 Botones/Teclas</span>
+                        </div>
+                    </div>
+
+                    <!-- Instrumento 11 - Ukelele (Cuerda) -->
+                    <div class="instrumento-card" data-tipo="cuerda" style="--instrumento-color: #27AE60">
+                        <div class="instrumento-icono">🎸</div>
+                        <h3>Ukelele</h3>
+                        <p class="instrumento-tipo">Cuerda</p>
+                        <p class="instrumento-descripcion">Pequeño pero alegre. Originario de Hawái, sonido tropical y divertido.</p>
+                        <div class="instrumento-datos">
+                            <span>🎸 4 cuerdas</span>
+                            <span>🌺 Tamaño pequeño</span>
+                        </div>
+                    </div>
+
+                    <!-- Instrumento 12 - Violonchelo (Cuerda) -->
+                    <div class="instrumento-card" data-tipo="cuerda" style="--instrumento-color: #7F8C8D">
+                        <div class="instrumento-icono">🎻</div>
+                        <h3>Violonchelo</h3>
+                        <p class="instrumento-tipo">Cuerda</p>
+                        <p class="instrumento-descripcion">Profundo y conmovedor. El barítono de la familia de cuerdas.</p>
+                        <div class="instrumento-datos">
+                            <span>🎻 4 cuerdas</span>
+                            <span>🎵 Se toca sentado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="footer-contenido">
+                <div class="footer-info">
+                    <h3>🎵 Música</h3>
+                    <p>Explorando el universo sonoro</p>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Página Educativa sobre Música. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script para filtros (opcional, se ve muy profesional) -->
+    <script>
+        const filtros = document.querySelectorAll('.filtro-btn');
+        const instrumentos = document.querySelectorAll('.instrumento-card');
+
+        filtros.forEach(filtro => {
+            filtro.addEventListener('click', () => {
+                // Quitar clase activo de todos
+                filtros.forEach(f => f.classList.remove('activo'));
+                // Agregar clase activo al clickeado
+                filtro.classList.add('activo');
+                
+                const tipo = filtro.dataset.filtro;
+                
+                instrumentos.forEach(instrumento => {
+                    if (tipo === 'todos' || instrumento.dataset.tipo === tipo) {
+                        instrumento.style.display = 'block';
+                    } else {
+                        instrumento.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
