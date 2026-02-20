@@ -203,16 +203,16 @@
         </div>
     </footer>
 
-    <!-- Script para filtros (opcional, se ve muy profesional) -->
+    
     <script>
         const filtros = document.querySelectorAll('.filtro-btn');
         const instrumentos = document.querySelectorAll('.instrumento-card');
 
         filtros.forEach(filtro => {
             filtro.addEventListener('click', () => {
-                // Quitar clase activo de todos
+                /
                 filtros.forEach(f => f.classList.remove('activo'));
-                // Agregar clase activo al clickeado
+                
                 filtro.classList.add('activo');
                 
                 const tipo = filtro.dataset.filtro;
