@@ -24,15 +24,5 @@ Una página web educativa dedicada a explorar el mundo de la música, con seccio
 | **Géneros** | Pop, Rock, Reggaetón, Electrónica, Jazz, Clásica, Hip-Hop, R&B, Country, Metal, Salsa, Indie |
 | **Instrumentos** | Guitarra, Piano, Batería, Violín, Flauta, Bajo, Saxofón, Trompeta, Arpa, Acordeón, Ukelele, Violonchelo |
 
-## 🚀 Cómo ver el proyecto online
 
-Puedes ver el proyecto directamente desde GitHub:
-1. Clona este repositorio
-2. Abre `index.html` en tu navegador
-
-```bash
-git clone https://github.com/Paulina-cmd/Musica.git
-cd Musica
-start index.html  # En Windows
-open index.html   # En Mac
 
